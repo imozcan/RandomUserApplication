@@ -4,11 +4,14 @@ RandomUserApplication is a Java Spring Boot project designed with a clean layere
 
 ##  Project Structure
 
+```
 RandomUserApplication/
 ├── RandomUserApplication # Main Spring Boot Application
 ├── RandomUserServiceLib # Service Layer (Business Logic)
 ├── RandomUserRepositoryLib # Repository Layer (Data Access)
 ├── RandomUserMeServiceLib # External API Communication Layer
+
+```
 
 Always show details
 
