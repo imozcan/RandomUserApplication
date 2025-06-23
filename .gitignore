@@ -1,3 +1,8 @@
+
+### MacOS ###
+.DS_Store
+__MACOSX/
+
 # Compiled class file
 *.class
 

@@ -8,7 +8,7 @@ public class Location {
     private String city;
     private String state;
     private String country;
-    private Object postcode; // int ya da String olabiliyor
+    private String postcode; // int ya da String olabiliyor
     private Coordinates coordinates;
     private Timezone timezone;
 }
