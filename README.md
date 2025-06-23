@@ -10,7 +10,6 @@ RandomUserApplication/
 ├── RandomUserServiceLib # Service Layer (Business Logic)
 ├── RandomUserRepositoryLib # Repository Layer (Data Access)
 ├── RandomUserMeServiceLib # External API Communication Layer
-
 ```
 
 Always show details
@@ -44,4 +43,4 @@ Ready to integrate with real databases
 
 ##  📄 License
 
-This project is licensed under the [MIT License](LICENSE)..
+This project is licensed under the [MIT License](LICENSE).
