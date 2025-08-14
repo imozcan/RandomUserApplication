@@ -43,7 +43,4 @@ public class RandomUserRepositoryHelper {
         return IRandomUserObjRepository.save(randomUserObj);
     }
 
-
-
-
 }
