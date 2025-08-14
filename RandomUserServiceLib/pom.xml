@@ -11,7 +11,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>RandomUserServiceLib</artifactId>
-	<version>1.4.0-Alpha</version>
+	<version>1.4.2</version>
 	<name>ServiceLib</name>
 	<description>Generic project for Spring Boot</description>
 
@@ -89,10 +89,20 @@
 							<artifactId>mapstruct-processor</artifactId>
 							<version>${org.mapstruct.version}</version>
 						</path>
-					</annotationProcessorPaths>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+						<path>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+							<version>1.18.32</version>
+						</path>
+                        <path>
+                          <groupId>org.projectlombok</groupId>
+                          <artifactId>lombok-mapstruct-binding</artifactId>
+                          <version>0.2.0</version>
+                        </path>
+                                  </annotationProcessorPaths>
+                              </configuration>
+                          </plugin>
+                      </plugins>
+                  </build>
 
-</project>
+              </project>
